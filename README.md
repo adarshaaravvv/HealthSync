@@ -9,11 +9,6 @@ medications, doctors seen and appointments, behind a sign-in, with an emergency
 card that a responder can read without one.
 
 
-## Live demo
-
-Deployed in demo mode (replays a bundled sample consultation, no live inference):
-https://healthsync-web.onrender.com
-
 ## Requirements
 
 - Python 3.10+, Node 20+
