@@ -1,0 +1,251 @@
+{
+  "language": "en",
+  "asr_ms": 10317,
+  "segments": [
+    {
+      "start_s": 0.0,
+      "end_s": 5.57,
+      "text": "Good morning. Please sit down. What brings you in today?",
+      "avg_logprob": -0.119,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 5.57,
+      "end_s": 12.4,
+      "text": "Doctor, I have been having a bad cough for about five days now. And since yesterday I have fever also.",
+      "avg_logprob": -0.119,
+      "speaker": "patient"
+    },
+    {
+      "start_s": 12.4,
+      "end_s": 16.34,
+      "text": "Any chest pain, or difficulty in breathing?",
+      "avg_logprob": -0.119,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 16.34,
+      "end_s": 21.24,
+      "text": "No chest pain. But I feel short of breath when I climb the stairs.",
+      "avg_logprob": -0.119,
+      "speaker": "patient"
+    },
+    {
+      "start_s": 21.24,
+      "end_s": 24.66,
+      "text": "Is the cough dry, or is there phlegm?",
+      "avg_logprob": -0.119,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 24.66,
+      "end_s": 29.26,
+      "text": "There is phlegm. Yellowish in color, mostly in the morning.",
+      "avg_logprob": -0.119,
+      "speaker": "patient"
+    },
+    {
+      "start_s": 29.26,
+      "end_s": 31.25,
+      "text": "Any history of asthma?",
+      "avg_logprob": -0.119,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 31.25,
+      "end_s": 33.14,
+      "text": "Do you smoke?",
+      "avg_logprob": -0.174,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 33.14,
+      "end_s": 34.5,
+      "text": "No asthma.",
+      "avg_logprob": -0.174,
+      "speaker": "patient"
+    },
+    {
+      "start_s": 34.5,
+      "end_s": 38.12,
+      "text": "I used to smoke, but I stopped four years back.",
+      "avg_logprob": -0.174,
+      "speaker": "patient"
+    },
+    {
+      "start_s": 38.12,
+      "end_s": 40.39,
+      "text": "Let me check your vitals.",
+      "avg_logprob": -0.174,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 40.39,
+      "end_s": 44.26,
+      "text": "Your temperature is 101.2 Fahrenheit.",
+      "avg_logprob": -0.174,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 44.26,
+      "end_s": 47.65,
+      "text": "Blood pressure is 130 over 85.",
+      "avg_logprob": -0.174,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 47.65,
+      "end_s": 49.88,
+      "text": "Pulse is 96.",
+      "avg_logprob": -0.174,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 49.88,
+      "end_s": 54.4,
+      "text": "Oxygen saturation is 97% on Ruhmair.",
+      "avg_logprob": -0.174,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 54.4,
+      "end_s": 57.04,
+      "text": "Now let me listen to your chest.",
+      "avg_logprob": -0.174,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 57.04,
+      "end_s": 58.91,
+      "text": "Take a deep breath.",
+      "avg_logprob": -0.174,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 58.91,
+      "end_s": 62.51,
+      "text": "I can hear some crackles in the right lower zone.",
+      "avg_logprob": -0.174,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 62.51,
+      "end_s": 68.12,
+      "text": "This looks like a lower respiratory tract infection, most likely bacterial.",
+      "avg_logprob": -0.118,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 68.12,
+      "end_s": 73.4,
+      "text": "I do not think it is pneumonia, but I want a chest X-ray to be sure.",
+      "avg_logprob": -0.118,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 73.4,
+      "end_s": 75.99,
+      "text": "Is it serious, doctor?",
+      "avg_logprob": -0.118,
+      "speaker": "patient"
+    },
+    {
+      "start_s": 75.99,
+      "end_s": 77.7,
+      "text": "It is treatable.",
+      "avg_logprob": -0.118,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 77.7,
+      "end_s": 86.47,
+      "text": "I am starting you on a moxicillin, 500 milligrams, three times a day, after food, for five days.",
+      "avg_logprob": -0.118,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 86.47,
+      "end_s": 90.27,
+      "text": "Please complete the full course even if you feel better.",
+      "avg_logprob": -0.118,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 90.59,
+      "end_s": 98.4,
+      "text": "For the fever, take paracetamol 650 milligrams, only when needed, up to three times a day.",
+      "avg_logprob": -0.145,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 98.4,
+      "end_s": 101.01,
+      "text": "Do not take more than that.",
+      "avg_logprob": -0.145,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 101.01,
+      "end_s": 103.27,
+      "text": "Should I take any cough syrup?",
+      "avg_logprob": -0.145,
+      "speaker": "patient"
+    },
+    {
+      "start_s": 103.27,
+      "end_s": 104.33,
+      "text": "Yes.",
+      "avg_logprob": -0.145,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 104.33,
+      "end_s": 108.52,
+      "text": "Two teaspoons at bedtime, for five days.",
+      "avg_logprob": -0.145,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 108.52,
+      "end_s": 113.28,
+      "text": "It may make you drowsy, so do not drive after taking it.",
+      "avg_logprob": -0.145,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 113.28,
+      "end_s": 116.66,
+      "text": "Drink plenty of warm fluids and take rest.",
+      "avg_logprob": -0.145,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 116.66,
+      "end_s": 122.02,
+      "text": "If the fever does not come down in three days, or if you get breathing difficulty, come back",
+      "avg_logprob": -0.176,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 122.02,
+      "end_s": 123.02,
+      "text": "immediately.",
+      "avg_logprob": -0.176,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 123.02,
+      "end_s": 129.83,
+      "text": "Otherwise, come for a follow-up after one week, with the X-ray report.",
+      "avg_logprob": -0.176,
+      "speaker": "doctor"
+    },
+    {
+      "start_s": 129.83,
+      "end_s": 130.63,
+      "text": "Thank you doctor.",
+      "avg_logprob": -0.176,
+      "speaker": "patient"
+    }
+  ]
+}

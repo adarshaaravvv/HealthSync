@@ -1,0 +1,38 @@
+services:
+  # the API. Demo mode is on because no cloud tier here has a GPU or Ollama.
+  - type: web
+    name: healthsync-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: HEALTHSYNC_DEMO_MODE
+        value: "true"
+      # set to the static site's URL once Render has assigned it
+      - key: HEALTHSYNC_ORIGINS
+        sync: false
+      - key: DATABASE_URL
+        fromDatabase:
+          name: healthsync-db
+          property: connectionString
+
+  # the React build, served as static files
+  - type: web
+    name: healthsync-web
+    runtime: static
+    buildCommand: npm --prefix frontend ci && npm --prefix frontend run build
+    staticPublishPath: ./frontend/dist
+    envVars:
+      # set to the API's URL once Render has assigned it
+      - key: VITE_API_URL
+        sync: false
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+
+databases:
+  - name: healthsync-db
+    plan: free

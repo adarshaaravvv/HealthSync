@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# CUDA runtime for faster-whisper on GPU. About 2 GB, so it is kept out of the
+# base file: cloud hosts have no GPU and do not need it. Without these on a GPU
+# machine ctranslate2 fails at encode time with "cublas64_12.dll is not found".
+nvidia-cublas-cu12
+nvidia-cudnn-cu12>=9

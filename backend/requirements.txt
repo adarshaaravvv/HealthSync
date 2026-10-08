@@ -1,0 +1,20 @@
+# web
+fastapi
+uvicorn[standard]
+python-multipart
+
+# storage: sqlite locally, postgres when DATABASE_URL points at one
+sqlalchemy
+psycopg2-binary
+
+# validation, shared by the API and the LLM output contract
+pydantic
+
+# ollama is called over plain HTTP
+requests
+
+# local speech recognition (runs on CPU if no GPU is present)
+faster-whisper
+
+# FHIR resource construction and validation (8.x ships R4B)
+fhir.resources

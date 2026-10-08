@@ -1,0 +1,120 @@
+{
+  "llm_ms": 22345,
+  "llm_model": "qwen2.5:7b",
+  "note": {
+    "soap": {
+      "subjective": "The patient reports having a bad cough for about five days, with yellowish phlegm mostly in the morning. The patient also mentions a fever starting yesterday. There is no chest pain but shortness of breath when climbing stairs. The patient has a history of smoking, which they stopped four years ago.",
+      "objective": "Vitals: Temperature 101.2 Fahrenheit, Blood pressure 130 over 85, Pulse 96, Oxygen saturation 97% on Ruhmair. Auscultation reveals crackles in the right lower zone.",
+      "assessment": "The patient is diagnosed with a lower respiratory tract infection, most likely bacterial. Pneumonia is not suspected based on current findings.",
+      "plan": "Start moxicillin 500 mg three times daily after food for five days. Take paracetamol 650 mg only when needed up to three times daily for fever. Two teaspoons of cough syrup at bedtime for five days. Advise the patient to drink plenty of warm fluids and take rest. Follow-up in one week with X-ray report."
+    },
+    "entities": {
+      "chief_complaint": "bad cough, fever",
+      "symptoms": [
+        {
+          "name": "cough",
+          "duration": null,
+          "severity": null,
+          "quote": "I have been having a bad cough for about five days now."
+        },
+        {
+          "name": "fever",
+          "duration": null,
+          "severity": null,
+          "quote": "since yesterday I have fever also"
+        },
+        {
+          "name": "shortness of breath",
+          "duration": null,
+          "severity": null,
+          "quote": "I feel short of breath when I climb the stairs"
+        }
+      ],
+      "vitals": [
+        {
+          "name": "temperature",
+          "value": "101.2",
+          "unit": "Fahrenheit"
+        },
+        {
+          "name": "blood_pressure",
+          "value": "130 over 85",
+          "unit": null
+        },
+        {
+          "name": "pulse",
+          "value": "96",
+          "unit": null
+        },
+        {
+          "name": "oxygen_saturation",
+          "value": "97%",
+          "unit": "on Ruhmair"
+        }
+      ],
+      "diagnoses": [
+        {
+          "text": "lower respiratory tract infection, most likely bacterial",
+          "status": "suspected"
+        },
+        {
+          "text": "pneumonia",
+          "status": "ruled_out"
+        }
+      ],
+      "medications": [
+        {
+          "name": "moxicillin",
+          "dose": "500 mg",
+          "route": null,
+          "frequency": "three times daily after food",
+          "duration": "five days",
+          "instruction": null
+        },
+        {
+          "name": "paracetamol",
+          "dose": "650 mg",
+          "route": null,
+          "frequency": "only when needed up to three times daily",
+          "duration": null,
+          "instruction": null
+        },
+        {
+          "name": "cough syrup",
+          "dose": "two teaspoons",
+          "route": null,
+          "frequency": "at bedtime",
+          "duration": "five days",
+          "instruction": "do not drive after taking it"
+        }
+      ],
+      "follow_up": {
+        "when": "one week",
+        "reason": "with X-ray report"
+      }
+    },
+    "med_instructions": [
+      {
+        "med_name": "moxicillin",
+        "plain_text": "Take 500 mg three times daily after food for five days.",
+        "timing": null,
+        "total_days": null,
+        "warnings": []
+      },
+      {
+        "med_name": "paracetamol",
+        "plain_text": "Take 650 mg only when needed up to three times daily. Duration not stated - confirm with your doctor.",
+        "timing": null,
+        "total_days": null,
+        "warnings": []
+      },
+      {
+        "med_name": "cough syrup",
+        "plain_text": "Take two teaspoons at bedtime for five days. Do not drive after taking it.",
+        "timing": null,
+        "total_days": null,
+        "warnings": []
+      }
+    ]
+  }
+}

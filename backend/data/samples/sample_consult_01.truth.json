@@ -1,0 +1,78 @@
+﻿[
+    {
+        "speaker":  "doctor",
+        "text":  "Good morning. Please sit down. What brings you in today?"
+    },
+    {
+        "speaker":  "patient",
+        "text":  "Doctor, I have been having a bad cough for about five days now. And since yesterday I have fever also."
+    },
+    {
+        "speaker":  "doctor",
+        "text":  "Any chest pain, or difficulty in breathing?"
+    },
+    {
+        "speaker":  "patient",
+        "text":  "No chest pain. But I feel short of breath when I climb the stairs."
+    },
+    {
+        "speaker":  "doctor",
+        "text":  "Is the cough dry, or is there phlegm?"
+    },
+    {
+        "speaker":  "patient",
+        "text":  "There is phlegm. Yellowish in colour, mostly in the morning."
+    },
+    {
+        "speaker":  "doctor",
+        "text":  "Any history of asthma? Do you smoke?"
+    },
+    {
+        "speaker":  "patient",
+        "text":  "No asthma. I used to smoke, but I stopped four years back."
+    },
+    {
+        "speaker":  "doctor",
+        "text":  "Let me check your vitals. Your temperature is one hundred one point two Fahrenheit. Blood pressure is one thirty over eighty five. Pulse is ninety six. Oxygen saturation is ninety seven percent on room air."
+    },
+    {
+        "speaker":  "doctor",
+        "text":  "Now let me listen to your chest. Take a deep breath. I can hear some crackles in the right lower zone."
+    },
+    {
+        "speaker":  "doctor",
+        "text":  "This looks like a lower respiratory tract infection, most likely bacterial. I do not think it is pneumonia, but I want a chest X ray to be sure."
+    },
+    {
+        "speaker":  "patient",
+        "text":  "Is it serious, doctor?"
+    },
+    {
+        "speaker":  "doctor",
+        "text":  "It is treatable. I am starting you on Amoxicillin, five hundred milligrams, three times a day, after food, for five days. Please complete the full course even if you feel better."
+    },
+    {
+        "speaker":  "doctor",
+        "text":  "For the fever, take Paracetamol six hundred fifty milligrams, only when needed, up to three times a day. Do not take more than that."
+    },
+    {
+        "speaker":  "patient",
+        "text":  "Should I take any cough syrup?"
+    },
+    {
+        "speaker":  "doctor",
+        "text":  "Yes. Two teaspoons at bedtime, for five days. It may make you drowsy, so do not drive after taking it."
+    },
+    {
+        "speaker":  "doctor",
+        "text":  "Drink plenty of warm fluids and take rest. If the fever does not come down in three days, or if you get breathing difficulty, come back immediately."
+    },
+    {
+        "speaker":  "doctor",
+        "text":  "Otherwise, come for a follow up after one week, with the X ray report."
+    },
+    {
+        "speaker":  "patient",
+        "text":  "Thank you doctor."
+    }
+]
